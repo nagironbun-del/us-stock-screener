@@ -1,6 +1,6 @@
 # 米国株スクリーニング 2026-07-02 (UTC)
 
-- 対象: S&P 500 + Nasdaq 100 / スキャン 514 銘柄 → フィルタ通過 506 銘柄
+- 対象: S&P 500 + Nasdaq 100 / スキャン 514 銘柄 → フィルタ通過 502 銘柄
 - フィルタ: 株価≥$5, 20日平均売買代金≥$20M, RSI<78
 - スコア: トレンド30 + モメンタム25 + タイミング25 + ブレイクアウト10 + 出来高10 (満点100)
 
@@ -8,21 +8,21 @@
 
 | # | Ticker | 銘柄名 | セクター | Score | 株価 | 前日比 | 20日 | RSI | 52w高値比 | シグナル |
 |---|--------|--------|----------|-------|------|--------|------|-----|-----------|----------|
-| 1 | **CHRW** | C.H. Robinson | Industrials | 79 | $191.75 | +0.3% | +6.5% | 60 | -3.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 2 | **MAA** | Mid-America Apartment Communities | Real Estate | 79 | $140.84 | +0.6% | +6.3% | 64 | -4.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 3 | **KO** | Coca-Cola Company (The) | Consumer Staples | 78 | $82.60 | +1.6% | +5.6% | 60 | -0.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 4 | **EXPD** | Expeditors International | Industrials | 78 | $167.25 | +0.3% | +5.4% | 64 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 5 | **PM** | Philip Morris International | Consumer Staples | 77 | $181.48 | +2.1% | +4.0% | 54 | -4.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 6 | **JBHT** | J.B. Hunt | Industrials | 77 | $289.29 | -0.3% | +3.3% | 63 | -0.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 7 | **ROK** | Rockwell Automation | Industrials | 77 | $474.51 | -1.7% | +2.8% | 55 | -4.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 8 | **FTV** | Fortive | Industrials | 76 | $61.89 | +0.1% | +2.2% | 57 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 9 | **AVB** | AvalonBay Communities | Real Estate | 74 | $192.86 | +1.3% | +6.3% | 65 | -2.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内) |
-| 10 | **EQR** | Equity Residential | Real Estate | 74 | $69.45 | +1.2% | +6.1% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内) |
-| 11 | **CNC** | Centene Corporation | Health Care | 74 | $68.53 | +0.3% | +15.1% | 68 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 12 | **UNH** | UnitedHealth Group | Health Care | 74 | $428.06 | +0.4% | +14.2% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 13 | **LLY** | Lilly (Eli) | Health Care | 73 | $1230.56 | +3.3% | +14.1% | 69 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 14 | **BEN** | Franklin Resources | Financials | 73 | $34.29 | +0.7% | +14.1% | 68 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 15 | **IFF** | International Flavors & Fragrances | Materials | 73 | $82.11 | +1.2% | +12.2% | 67 | -0.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 1 | **EXPD** | Expeditors International | Industrials | 78 | $167.57 | +0.5% | +5.6% | 64 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 2 | **CHRW** | C.H. Robinson | Industrials | 78 | $189.85 | -0.7% | +5.4% | 58 | -4.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 3 | **PM** | Philip Morris International | Consumer Staples | 77 | $182.27 | +2.6% | +4.5% | 55 | -4.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 4 | **FTV** | Fortive | Industrials | 77 | $62.65 | +1.4% | +3.5% | 60 | -0.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 5 | **ROK** | Rockwell Automation | Industrials | 76 | $471.70 | -2.3% | +2.2% | 54 | -4.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 6 | **JBHT** | J.B. Hunt | Industrials | 76 | $285.83 | -1.5% | +2.1% | 59 | -1.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 7 | **UPS** | United Parcel Service | Industrials | 76 | $110.66 | +1.0% | +1.8% | 60 | -4.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 8 | **FFIV** | F5, Inc. | Information Technology | 75 | $408.14 | -3.8% | +0.6% | 60 | -3.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 9 | **AVB** | AvalonBay Communities | Real Estate | 74 | $193.96 | +1.9% | +6.9% | 66 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内) |
+| 10 | **EQR** | Equity Residential | Real Estate | 74 | $69.83 | +1.7% | +6.7% | 68 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内) |
+| 11 | **IFF** | International Flavors & Fragrances | Materials | 73 | $83.83 | +3.3% | +14.6% | 70 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 12 | **CNC** | Centene Corporation | Health Care | 73 | $67.86 | -0.7% | +14.0% | 66 | -0.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 13 | **UNH** | UnitedHealth Group | Health Care | 73 | $425.36 | -0.3% | +13.5% | 65 | -0.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 14 | **BEN** | Franklin Resources | Financials | 73 | $34.11 | +0.1% | +13.4% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 15 | **LLY** | Lilly (Eli) | Health Care | 73 | $1213.91 | +1.9% | +12.5% | 67 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
 
 ---
 *本レポートはテクニカル指標に基づく機械的スクリーニングであり、投資助言ではありません。売買判断はご自身の責任で行ってください。*
