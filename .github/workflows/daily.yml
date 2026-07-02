@@ -1,0 +1,49 @@
+name: Daily US Stock Screener
+
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run screener
+        run: python screener.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          git diff --cached --quiet || git commit -m "screener report $(date -u +%F)"
+          git push
+
+      - name: Create notification issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="📈 米国株スクリーニング $(date -u +%F)"
+          gh issue create \
+            --title "$TITLE" \
+            --body-file reports/latest.md \
+            --label screener || \
+          gh issue create --title "$TITLE" --body-file reports/latest.md
