@@ -1,6 +1,6 @@
-# 米国株スクリーニング 2026-10-30 (UTC)
+# 米国株スクリーニング 2026-10-31 (UTC)
 
-- 対象: S&P 500 + Nasdaq 100 / スキャン 500 銘柄 → フィルタ通過 488 銘柄
+- 対象: S&P 500 + Nasdaq 100 / スキャン 499 銘柄 → フィルタ通過 492 銘柄
 - フィルタ: 株価≥$5, 20日平均売買代金≥$20M, RSI<78
 - スコア: トレンド30 + モメンタム25 + タイミング25 + ブレイクアウト10 + 出来高10 (満点100)
 
@@ -8,21 +8,21 @@
 
 | # | Ticker | 銘柄名 | セクター | Score | 株価 | 前日比 | 20日 | RSI | 52w高値比 | シグナル |
 |---|--------|--------|----------|-------|------|--------|------|-----|-----------|----------|
-| 1 | **MO** | Altria | Consumer Staples | 84 | $76.75 | +5.2% | +14.6% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 2 | **IFF** | International Flavors & Fragrances | Materials | 79 | $90.81 | +0.2% | +9.3% | 59 | -3.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 3 | **EXPD** | Expeditors International | Industrials | 76 | $198.39 | +0.6% | +5.7% | 59 | -0.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 4 | **IEX** | IDEX Corporation | Industrials | 76 | $239.33 | +0.3% | +4.5% | 61 | -0.2% | 終値>SMA50, SMA50>SMA200, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 5 | **MA** | Mastercard | Financials | 74 | $635.70 | +4.2% | +15.8% | 70 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 6 | **AJG** | Arthur J. Gallagher & Co. | Financials | 74 | $268.20 | +3.0% | +15.7% | 65 | -1.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 7 | **EBAY** | eBay Inc. | Consumer Discretionary | 73 | $121.19 | +2.7% | +14.4% | 64 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 8 | **CNC** | Centene Corporation | Health Care | 72 | $68.62 | +2.3% | +12.5% | 54 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 9 | **PM** | Philip Morris International | Consumer Staples | 72 | $208.50 | +2.9% | +11.7% | 65 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 10 | **BDX** | Becton Dickinson | Health Care | 71 | $198.34 | +1.6% | +11.4% | 65 | -1.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 11 | **KMI** | Kinder Morgan | Energy | 71 | $33.97 | +1.2% | +11.3% | 60 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 12 | **CL** | Colgate-Palmolive | Consumer Staples | 71 | $93.16 | +1.6% | +10.8% | 57 | -4.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 13 | **VEEV** | Veeva Systems | Health Care | 70 | $310.34 | -2.4% | +10.1% | 59 | -3.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 14 | **HUM** | Humana | Health Care | 70 | $417.56 | +1.4% | +10.0% | 54 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 15 | **EQIX** | Equinix | Real Estate | 70 | $1036.67 | +2.9% | +2.4% | 58 | -6.7% | 終値>SMA50, SMA50>SMA200, RSI 50-70, 押し目(MA近接), MACDブルクロス, RSIリバウンド, 出来高急増+陽線 |
+| 1 | **ICE** | Intercontinental Exchange | Financials | 82 | $168.85 | +3.6% | +12.5% | 66 | -2.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 2 | **MDLZ** | Mondelez International | Consumer Staples | 81 | $64.94 | +3.9% | +11.6% | 62 | -0.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 3 | **DE** | Deere & Company | Industrials | 79 | $675.48 | +2.3% | -1.7% | 60 | -4.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内) |
+| 4 | **PSX** | Phillips 66 | Energy | 78 | $282.83 | +3.4% | +6.9% | 55 | -4.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 5 | **VRSN** | Verisign | Information Technology | 77 | $307.21 | +0.4% | +6.6% | 58 | -0.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 6 | **TMO** | Thermo Fisher Scientific | Health Care | 77 | $697.00 | -1.7% | +6.4% | 59 | -1.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 7 | **GM** | General Motors | Consumer Discretionary | 76 | $87.40 | +2.0% | +11.7% | 62 | -3.0% | 終値>SMA50, SMA50>SMA200, RSI 50-70, MACDブルクロス, RSIリバウンド, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 8 | **MRK** | Merck & Co. | Health Care | 76 | $149.52 | +2.2% | +3.6% | 57 | -3.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 9 | **EXPD** | Expeditors International | Industrials | 76 | $198.85 | +0.2% | +3.3% | 60 | -0.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 10 | **EMR** | Emerson Electric | Industrials | 75 | $164.94 | -3.4% | +2.1% | 57 | -3.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 11 | **FDS** | FactSet | Financials | 75 | $329.57 | +3.0% | +23.9% | 65 | -1.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 12 | **AJG** | Arthur J. Gallagher & Co. | Financials | 75 | $276.07 | +2.9% | +22.1% | 70 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 13 | **GDDY** | GoDaddy | Information Technology | 74 | $117.24 | +10.7% | +20.6% | 66 | -13.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 出来高急増+陽線 |
+| 14 | **RSG** | Republic Services | Industrials | 74 | $244.04 | +3.3% | +16.5% | 69 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 15 | **MO** | Altria | Consumer Staples | 73 | $78.03 | +1.7% | +15.9% | 70 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
 
 ---
 *本レポートはテクニカル指標に基づく機械的スクリーニングであり、投資助言ではありません。売買判断はご自身の責任で行ってください。*
