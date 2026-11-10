@@ -1,6 +1,6 @@
-# 米国株スクリーニング 2026-11-07 (UTC)
+# 米国株スクリーニング 2026-11-10 (UTC)
 
-- 対象: S&P 500 + Nasdaq 100 / スキャン 499 銘柄 → フィルタ通過 496 銘柄
+- 対象: S&P 500 + Nasdaq 100 / スキャン 500 銘柄 → フィルタ通過 491 銘柄
 - フィルタ: 株価≥$5, 20日平均売買代金≥$20M, RSI<78
 - スコア: トレンド30 + モメンタム25 + タイミング25 + ブレイクアウト10 + 出来高10 (満点100)
 
@@ -8,21 +8,21 @@
 
 | # | Ticker | 銘柄名 | セクター | Score | 株価 | 前日比 | 20日 | RSI | 52w高値比 | シグナル |
 |---|--------|--------|----------|-------|------|--------|------|-----|-----------|----------|
-| 1 | **WRB** | W. R. Berkley Corporation | Financials | 77 | $75.23 | -2.3% | +4.6% | 58 | -2.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 2 | **BF-B** | Brown–Forman | Consumer Staples | 74 | $30.58 | -1.2% | +15.9% | 62 | -1.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 3 | **BBY** | Best Buy | Consumer Discretionary | 73 | $99.63 | +0.2% | +14.5% | 59 | -1.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 4 | **CPAY** | Corpay | Financials | 73 | $455.16 | +1.8% | +14.4% | 76 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 5 | **VTRS** | Viatris | Health Care | 72 | $19.91 | +5.0% | +12.9% | 68 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 6 | **BALL** | Ball Corporation | Materials | 72 | $65.92 | -1.5% | +12.8% | 57 | -3.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 7 | **ADP** | Automatic Data Processing | Industrials | 72 | $303.35 | -1.2% | +12.0% | 62 | -1.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
-| 8 | **KMB** | Kimberly-Clark | Consumer Staples | 71 | $108.43 | -1.8% | +11.1% | 56 | -4.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 9 | **MTD** | Mettler Toledo | Health Care | 71 | $1722.15 | +2.6% | +11.1% | 66 | -0.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 10 | **BIIB** | Biogen | Health Care | 71 | $248.35 | +1.8% | +10.0% | 57 | -2.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 11 | **CL** | Colgate-Palmolive | Consumer Staples | 71 | $96.56 | -2.2% | +10.0% | 59 | -2.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 12 | **CTAS** | Cintas | Industrials | 71 | $222.36 | -1.8% | +9.9% | 59 | -2.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 13 | **WST** | West Pharmaceutical Services | Health Care | 70 | $399.81 | +1.9% | +9.2% | 58 | -4.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 14 | **CME** | CME Group | Financials | 70 | $305.89 | -0.4% | +9.0% | 64 | -3.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 15 | **SJM** | J.M. Smucker Company (The) | Consumer Staples | 70 | $130.55 | -2.0% | +8.9% | 57 | -2.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 1 | **BBY** | Best Buy | Consumer Discretionary | 84 | $106.28 | +6.7% | +22.2% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 2 | **KMB** | Kimberly-Clark | Consumer Staples | 82 | $111.93 | +3.2% | +13.3% | 62 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 3 | **COR** | Cencora | Health Care | 77 | $345.76 | +3.7% | +6.4% | 59 | -7.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 出来高急増+陽線 |
+| 4 | **WRB** | W. R. Berkley Corporation | Financials | 76 | $75.92 | +0.9% | +4.1% | 60 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 5 | **MSFT** | Microsoft | Information Technology | 75 | $545.18 | +2.7% | +0.7% | 57 | -1.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 6 | **MRNA** | Moderna | Health Care | 75 | $269.00 | +5.8% | +25.9% | 67 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 7 | **TECH** | Bio-Techne | Health Care | 75 | $72.83 | +0.1% | +0.4% | 63 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 8 | **LLY** | Lilly (Eli) | Health Care | 74 | $1411.95 | +4.3% | +19.4% | 68 | -0.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 9 | **ABNB** | Airbnb | Consumer Discretionary | 73 | $190.29 | +0.2% | +16.4% | 66 | -0.1% | 終値>SMA50, SMA50>SMA200, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 10 | **FDS** | FactSet | Financials | 72 | $326.72 | -0.4% | +13.2% | 57 | -5.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 11 | **EL** | Estée Lauder Companies (The) | Consumer Staples | 72 | $113.16 | +2.8% | +13.1% | 64 | -4.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 12 | **MAR** | Marriott International | Consumer Discretionary | 72 | $417.16 | +0.2% | +13.0% | 70 | -1.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 13 | **HST** | Host Hotels & Resorts | Real Estate | 71 | $25.28 | +2.7% | +11.2% | 59 | -3.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 14 | **GWW** | W. W. Grainger | Industrials | 71 | $1447.67 | +0.7% | +11.0% | 68 | -2.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 15 | **MCK** | McKesson | Health Care | 71 | $1059.37 | -0.1% | +10.8% | 70 | -1.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
 
 ---
 *本レポートはテクニカル指標に基づく機械的スクリーニングであり、投資助言ではありません。売買判断はご自身の責任で行ってください。*
