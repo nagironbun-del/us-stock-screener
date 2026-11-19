@@ -1,4 +1,4 @@
-# 米国株スクリーニング 2026-11-18 (UTC)
+# 米国株スクリーニング 2026-11-19 (UTC)
 
 - 対象: S&P 500 + Nasdaq 100 / スキャン 499 銘柄 → フィルタ通過 499 銘柄
 - フィルタ: 株価≥$5, 20日平均売買代金≥$20M, RSI<78
@@ -8,21 +8,21 @@
 
 | # | Ticker | 銘柄名 | セクター | Score | 株価 | 前日比 | 20日 | RSI | 52w高値比 | シグナル |
 |---|--------|--------|----------|-------|------|--------|------|-----|-----------|----------|
-| 1 | **PGR** | Progressive Corporation | Financials | 81 | $234.67 | -1.1% | +5.7% | 60 | -1.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 2 | **CME** | CME Group | Financials | 81 | $311.56 | -2.4% | +5.5% | 61 | -2.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 3 | **AAPL** | Apple Inc. | Information Technology | 79 | $351.91 | -0.2% | +3.7% | 56 | -1.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 4 | **MET** | MetLife | Financials | 77 | $101.50 | +0.0% | +0.9% | 54 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 5 | **ELV** | Elevance Health | Health Care | 75 | $433.93 | -2.8% | -1.4% | 55 | -2.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
-| 6 | **ALLE** | Allegion | Industrials | 75 | $186.77 | -2.2% | +18.9% | 60 | -3.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 7 | **ROP** | Roper Technologies | Information Technology | 75 | $471.92 | -2.4% | +18.5% | 64 | -4.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 8 | **FTV** | Fortive | Industrials | 74 | $66.07 | -2.2% | +13.2% | 60 | -3.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 9 | **MAS** | Masco | Industrials | 74 | $83.22 | -1.6% | +11.9% | 60 | -3.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 10 | **EXR** | Extra Space Storage | Real Estate | 74 | $156.55 | -1.1% | +11.0% | 65 | -2.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 11 | **NDAQ** | Nasdaq, Inc. | Financials | 74 | $105.13 | -3.1% | +10.9% | 53 | -4.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 12 | **CINF** | Cincinnati Financial | Financials | 73 | $188.92 | -1.3% | +9.8% | 65 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 13 | **AWK** | American Water Works | Utilities | 73 | $148.15 | -2.1% | +9.8% | 60 | -2.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 14 | **PSA** | Public Storage | Real Estate | 73 | $330.18 | -1.1% | +9.4% | 61 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 15 | **AJG** | Arthur J. Gallagher & Co. | Financials | 73 | $282.88 | -1.4% | +9.1% | 61 | -1.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 1 | **DGX** | Quest Diagnostics | Health Care | 82 | $259.69 | +1.3% | +8.7% | 64 | -1.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 2 | **ED** | Consolidated Edison | Utilities | 82 | $119.27 | +0.8% | +7.5% | 62 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 3 | **WELL** | Welltower | Real Estate | 81 | $247.25 | +0.6% | +5.9% | 62 | -1.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 4 | **LYV** | Live Nation Entertainment | Communication Services | 79 | $181.56 | +3.0% | +4.1% | 60 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), MACDブルクロス, 52週高値圏(-5%以内) |
+| 5 | **WSM** | Williams-Sonoma, Inc. | Consumer Discretionary | 78 | $260.09 | +4.0% | +2.7% | 56 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 6 | **ROP** | Roper Technologies | Information Technology | 75 | $470.87 | -0.2% | +18.4% | 63 | -4.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 7 | **ALLE** | Allegion | Industrials | 75 | $187.82 | +0.6% | +18.1% | 61 | -2.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 8 | **FTV** | Fortive | Industrials | 74 | $66.73 | +1.0% | +13.8% | 62 | -2.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 9 | **DLTR** | Dollar Tree | Consumer Staples | 74 | $142.44 | +2.0% | +13.5% | 61 | -3.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, MACDブルクロス, 52週高値圏(-5%以内) |
+| 10 | **EXR** | Extra Space Storage | Real Estate | 74 | $157.04 | +0.3% | +12.3% | 66 | -2.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 11 | **AWK** | American Water Works | Utilities | 74 | $150.13 | +1.3% | +12.1% | 63 | -0.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 12 | **PSA** | Public Storage | Real Estate | 73 | $330.99 | +0.2% | +11.0% | 62 | -3.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 13 | **J** | Jacobs Solutions | Industrials | 73 | $157.24 | -0.6% | +10.4% | 59 | -1.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 14 | **GILD** | Gilead Sciences | Health Care | 73 | $168.98 | -0.8% | +10.0% | 59 | -3.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 15 | **NDAQ** | Nasdaq, Inc. | Financials | 73 | $105.72 | +0.6% | +10.0% | 55 | -3.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
 
 ---
 *本レポートはテクニカル指標に基づく機械的スクリーニングであり、投資助言ではありません。売買判断はご自身の責任で行ってください。*
