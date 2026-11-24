@@ -1,4 +1,4 @@
-# 米国株スクリーニング 2026-11-21 (UTC)
+# 米国株スクリーニング 2026-11-24 (UTC)
 
 - 対象: S&P 500 + Nasdaq 100 / スキャン 500 銘柄 → フィルタ通過 500 銘柄
 - フィルタ: 株価≥$5, 20日平均売買代金≥$20M, RSI<78
@@ -8,21 +8,21 @@
 
 | # | Ticker | 銘柄名 | セクター | Score | 株価 | 前日比 | 20日 | RSI | 52w高値比 | シグナル |
 |---|--------|--------|----------|-------|------|--------|------|-----|-----------|----------|
-| 1 | **VLTO** | Veralto | Industrials | 84 | $116.63 | +0.5% | +11.8% | 65 | -3.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 2 | **CB** | Chubb Limited | Financials | 82 | $371.63 | +0.4% | +4.7% | 58 | -2.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 3 | **KO** | Coca-Cola Company (The) | Consumer Staples | 82 | $96.99 | +0.9% | +4.6% | 58 | -2.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 4 | **MRSH** | Marsh McLennan | Financials | 82 | $206.22 | +0.8% | +4.4% | 61 | -2.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 5 | **ED** | Consolidated Edison | Utilities | 82 | $119.36 | +0.2% | +3.9% | 62 | -1.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 6 | **MDLZ** | Mondelez International | Consumer Staples | 82 | $66.28 | +0.9% | +3.9% | 56 | -1.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 7 | **VRSN** | Verisign | Information Technology | 81 | $306.87 | +0.1% | +2.5% | 51 | -3.3% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 8 | **PGR** | Progressive Corporation | Financials | 80 | $231.39 | +0.6% | +1.5% | 54 | -2.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 9 | **CME** | CME Group | Financials | 80 | $307.56 | +0.4% | +0.6% | 55 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 10 | **CTAS** | Cintas | Industrials | 78 | $220.01 | +0.5% | -1.6% | 52 | -3.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
-| 11 | **EW** | Edwards Lifesciences | Health Care | 75 | $101.85 | -2.0% | +14.3% | 59 | -4.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 12 | **LH** | Labcorp | Health Care | 74 | $367.13 | -0.5% | +11.6% | 62 | -1.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 13 | **AIZ** | Assurant | Financials | 74 | $316.65 | +0.2% | +11.2% | 66 | -2.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
-| 14 | **GPN** | Global Payments | Financials | 74 | $91.83 | +9.9% | +10.9% | 53 | -9.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 出来高急増+陽線 |
-| 15 | **COST** | Costco | Consumer Staples | 74 | $1102.15 | +0.8% | +10.0% | 70 | -1.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 1 | **DRI** | Darden Restaurants | Consumer Discretionary | 83 | $232.27 | +2.9% | +8.9% | 59 | -2.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 2 | **J** | Jacobs Solutions | Industrials | 83 | $157.53 | +4.6% | +7.1% | 57 | -1.7% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 3 | **REGN** | Regeneron Pharmaceuticals | Health Care | 75 | $942.24 | +2.3% | +16.8% | 62 | -3.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 4 | **VLTO** | Veralto | Industrials | 74 | $117.78 | +1.0% | +14.0% | 67 | -2.1% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 5 | **MAS** | Masco | Industrials | 74 | $85.15 | +3.1% | +13.2% | 63 | -1.5% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 6 | **LH** | Labcorp | Health Care | 74 | $372.56 | +1.5% | +12.9% | 66 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 7 | **DLTR** | Dollar Tree | Consumer Staples | 74 | $139.10 | +0.8% | +11.4% | 56 | -5.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 出来高急増+陽線 |
+| 8 | **CPAY** | Corpay | Financials | 74 | $439.61 | +2.3% | +10.0% | 54 | -4.9% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 9 | **BDX** | Becton Dickinson | Health Care | 74 | $215.44 | +1.3% | +9.7% | 66 | -1.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 52週高値圏(-5%以内), 出来高急増+陽線 |
+| 10 | **EXR** | Extra Space Storage | Real Estate | 74 | $157.17 | +1.5% | +9.6% | 64 | -2.4% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 11 | **OMC** | Omnicom Group | Communication Services | 74 | $87.32 | +2.5% | +9.4% | 58 | -1.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 12 | **DGX** | Quest Diagnostics | Health Care | 73 | $263.12 | +1.9% | +8.3% | 66 | +0.0% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 13 | **FTV** | Fortive | Industrials | 73 | $65.73 | +2.4% | +8.1% | 56 | -3.8% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 14 | **CAH** | Cardinal Health | Health Care | 73 | $271.97 | -0.3% | +8.1% | 60 | -4.2% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
+| 15 | **PSA** | Public Storage | Real Estate | 73 | $330.48 | +1.6% | +7.7% | 59 | -3.6% | 終値>SMA50, SMA50>SMA200, SMA50上向き, RSI 50-70, 押し目(MA近接), 52週高値圏(-5%以内) |
 
 ---
 *本レポートはテクニカル指標に基づく機械的スクリーニングであり、投資助言ではありません。売買判断はご自身の責任で行ってください。*
